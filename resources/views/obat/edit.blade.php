@@ -20,7 +20,7 @@
                                 <div class="form-group">
                                     <label for="kategori">Kategori</label>
                                     <select class="form-control" id="kategori" name="kategori">
-                                        <option value="obat_bebas" {{$data->kategori == 'obat_bebas' ? 'selected' : '' }}>Obat Bebas</option>
+                                        <option value="obat_bebas" {{$data->kategori == 'obat_bebas' ? 'selected' : '' }}>  </option>
                                         <option value="obat_bebas_terbatas" {{$data->kategori == 'obat_bebas_terbatas' ? 'selected' : ''}}>Obat Bebas Terbatas</option>
                                         <option value="obat_keras" {{$data->kategori == 'obat_keras' ? 'selected' : '' }}>Obat Keras</option>
                                         <option value="obat_narkotika" {{$data->kategori == 'obat_narkotika' ? 'selected' : ''}}>Obat Narkotika</option>
